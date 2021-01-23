@@ -1,0 +1,284 @@
+/* ===========================
+Template Name   : Consult| HTML5 Template
+Template URL    : http:/biplob.com
+Author          : biplob
+Version         : 1.0
+Tags            : Consultancy, Consult
+============================= */
+
+/*=========== TABLE OF CONTENTS ============
+
+    01. General Css
+    02. 
+    03.   
+======================================*/
+
+/* ===General Css=== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    color: #272727;
+    line-height: 24px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+html{
+  
+    scroll-behavior: smooths;
+}
+
+a, a:hover, a:active, a:focus{
+    text-decoration: none;
+    color: #000;
+    outline: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+
+}
+p{
+    margin: 0;
+    line-height: 24px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* ====Start Header Section Css==== */
+#header_sec{
+    background: #008CB5;
+    padding: 25px 0;
+}
+
+.menu {
+
+}
+.menu ul{
+
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    margin-top: 10px;
+    padding: 0 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: aqua;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+/* ====End Header Section Css==== */
+
+/* ==== Start Banner Section Css ====*/
+#banner_sec{
+    overflow-x: hidden;
+}
+
+.container-fluid{
+   padding: 0;
+}
+.banner_img img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.banner_content{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.banner_content h2{
+    width: 60%;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: #000;
+}
+.banner_content h2 span{
+    color: #008CB5;
+}
+.banner_content a{
+    margin-top: 10px;
+    display: inline-block;
+    background: #008CB5;
+    padding: 5px 16px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.5s;
+}
+.banner_content a:hover{
+    background: #fff;
+    color: #008CB5;
+    border: 1px solid #008CB5;
+    padding: 3px 14px;
+}
+/* ==== End Banner Section Css ====*/
+
+/* ==== Start Looking Section Css ====*/
+#looking_sec{
+    padding: 120px 100px;
+}
+.looking_content h2{
+    color: #008CB5;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+.looking_content p{
+    color: #999;
+    margin-top: 30px;
+    line-height: 2;
+}
+.looking_img img{
+    width: 100%;
+}
+/* ==== End Looking Section Css ====*/
+
+/* ==== Start Service Section Css====*/
+#service_sec{
+    text-align: center;
+}
+#service_sec h2{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 30px 0;
+    font-family: montserrat,'sans-serif';
+    color: #008CB5;
+}
+.service_item {
+
+}
+.service_item img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.service_item h4{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.service_item p{
+    color: #999;
+}
+/* ==== End Service Section Css====*/
+
+/* ==== Start Work Section Css ====*/
+#work_sec{
+    padding: 100px 0;
+    text-align: center;
+}
+#work_sec h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #008CB5;
+    margin-bottom: 30px;
+}
+#work_sec .icon{
+    color: #008CB5;
+    padding: 30px 0;
+}
+#work_sec .work_details h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #4d4d4d;
+    margin-bottom: 15px;
+}
+#work_sec .work_details p{
+    color: #999;
+    line-height: 27px;
+}
+/* ==== End Work Section Css ====*/
+
+/* ==== Start News Section Css ====*/
+#blog_sec {
+    padding: 80px 0;
+    text-align: center;
+}
+#blog_sec h2{
+    color: #008CB5;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.single_blog {
+    margin-top: 10px;
+    padding: 10px;
+}
+.single_blog img{
+    width: 100%;
+}
+.single_blog h5 span{
+    background: #008CB5;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    font-size: 13px;
+}
+.single_blog h4 {
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.single_blog p{
+    line-height: 2;
+    color: #999;
+}
+/* ==== End News Section Css ====*/
+
+/* ==== Start Footer Section Css ====*/
+#footer_sec {
+    padding: 100px 0;
+    background: #000;
+}
+.footer_title h3 {
+    color: #008CB5;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.footer_widget{
+    color: #999;
+}
+.footer_widget ul li span{
+    color: #999;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer_widget ul li a{
+    color: #999;
+    padding: 4px 0;
+    display: inline-block;
+}
+
+#footer_p{
+    background: #000;
+    border-top: 1px solid #4d4d4d;
+}
+.footer p{
+    text-align: center;
+    padding: 25px 0;
+    color: #999;
+}
+/* ==== Start Footer Section Css ====*/

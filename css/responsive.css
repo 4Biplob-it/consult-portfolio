@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+    
+    .banner_content h2{
+        width: 70%;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        color: #000;
+    }
+}
